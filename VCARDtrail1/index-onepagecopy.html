@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Meet</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+   
+  .logo-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  
+  }
+
+  .logo {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .logo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  .logoheader img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+     object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, filter 0.4s ease;
+  filter: grayscale(40%);
+  }
+  .logoheader p {
+  margin-top: 8px;  /* space between image and name */
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  user-select: none;
+  text-align: center;
+}
+  .logo p {
+  margin-top: 8px;  /* space between image and name */
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  user-select: none;
+  text-align: center;
+}
+
+  .logo:hover {
+    transform: scale(1.1);
+  }
+
+  .info-section {
+    display: none;
+  }
+
+.logo-selection {
+  display: none;
+}
+
+</style>
+
+
+
+
+<body>
+    <!-- ##### Preloader ##### -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="vcard-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-first" id="vcardNav">
+
+                        <a href="" class="nav-brand"><img src="img/core-img/logo1.png.webp" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                             
+
+
+
+<div class="classynav" >
+   
+                                <ul id="vcardMenu">
+                                    <li class="active"><a href="#about">About</a></li>
+                                    
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                                 <div class="logo-selection">
+   
+
+   <div class="d-flex justify-content-last align-items-center h-100 gap-8">
+        <div class="logoheader" onclick="showInfo('raviteja')">
+          <img src="img/core-img/test.jpg" alt="Raviteja Gatti">
+          <p>Raviteja</p>
+        </div>
+        <div class="logoheader" onclick="showInfo('chandu')">
+          <img src="img/core-img/test1.jpg" alt="Chandu Gatti">
+          <p>Chandu</p>
+        </div>
+      </div>
+</div>
+
+                               
+                           
+
+
+ </div>
+
+
+
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<section id="info-selection" class="innfo-sectio"> 
+  <div class="hero-area bg-img clearfix" style="background-image: url(img/bg-img/bg1.jpg.webp);" id="about">
+    <div id="floating-spot"></div>
+    <div class="container h-100">
+       
+        
+        
+      <div class="d-flex justify-content-left align-items-center h-100 gap-8">
+        
+<h2 class="select-prompt text-center mb-4" style="color: rgb(8, 8, 8); font-weight: 600;">
+       
+      </h2>
+        <div class="logo" onclick="showInfo('raviteja')">
+          <img src="img/core-img/test.jpg" alt="Raviteja Gatti">
+          <p>Raviteja</p>
+        </div>
+        <div class="logo" onclick="showInfo('chandu')">
+          <img src="img/core-img/test1.jpg" alt="Chandu Gatti">
+          <p>Chandu</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+     
+   
+
+
+
+<section id="info-raviteja" class="info-section"> 
+   <div class="hero-area bg-img clearfix" style="background-image: url(img/bg-img/bg1.jpg.webp);" id="about">
+        <div id="floating-spot"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-sm-10 col-md-8">
+                    <!-- Hero Content -->
+                    <div class="hero-content">
+                        <!-- ADD YOUR IMAGE HERE -->
+                        <!-- <img src="img/bg-img/panda-black.webp" alt="Overlay Image" style="width: 500px; height: auto; position: absolute; top: -20px; right: -400px; z-index: 1;"> -->
+                        
+                        <h5 class="wow fadeInUp" data-wow-delay="100ms">Hello I’m</h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="300ms">Raviteja Gatti</h2><br>
+                        <h3 class="wow fadeInUp" data-wow-delay="500ms">Digital Designer &amp; Illustrator</h3>
+    
+                        <!-- Contact Info -->
+                        <div class="contact-info mt-30 wow fadeInUp" data-wow-delay="700ms">
+                            <a href="#"><img src="img/core-img/envelope-small.png.webp" alt=""> ravitejagatti1999@gmail.com</a>
+                            <a href="#"><img src="img/core-img/phone-call-small.png.webp" alt=""> +91 9885533818</a>
+                            <a href="#"><img src="img/core-img/monitor-small.png.webp" alt=""> www.cdaitsolutions.com</a>
+                        </div>
+    
+                        <!-- Social Info -->
+                        <div class="social-info mt-30 wow fadeInUp" data-wow-delay="900ms">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</section>
+
+<section id="info-chandu" class="info-section">
+   <div class="hero-area bg-img clearfix" style="background-image: url(img/bg-img/bg1.jpg.webp);" id="about">
+        <div id="floating-spot"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-sm-10 col-md-8">
+                    <!-- Hero Content -->
+                    <div class="hero-content">
+                        <!-- ADD YOUR IMAGE HERE -->
+                        <!-- <img src="img/bg-img/panda-black.webp" alt="Overlay Image" style="width: 500px; height: auto; position: absolute; top: -20px; right: -400px; z-index: 1;"> -->
+                        
+                        <h5 class="wow fadeInUp" data-wow-delay="100ms">Hello I’m</h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="300ms">Chandu Gatti</h2><br>
+                        <h3 class="wow fadeInUp" data-wow-delay="500ms">Digital Designer &amp; Illustrator</h3>
+    
+                        <!-- Contact Info -->
+                        <div class="contact-info mt-30 wow fadeInUp" data-wow-delay="700ms">
+                            <a href="#"><img src="img/core-img/envelope-small.png.webp" alt=""> Chandu@gmail.com</a>
+                            <a href="#"><img src="img/core-img/phone-call-small.png.webp" alt=""> +91 9885533818</a>
+                            <a href="#"><img src="img/core-img/monitor-small.png.webp" alt=""> www.cdaitsolutions.com</a>
+                        </div>
+    
+                        <!-- Social Info -->
+                        <div class="social-info mt-30 wow fadeInUp" data-wow-delay="900ms">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</section>
+   
+    
+   
+
+
+   
+   
+
+    <!-- ##### Portfolio Area Start ##### -->
+    <section class="portfolio-area section-padding-100 clearfix" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <!-- Section Heading -->
+                <div class="col-12">
+                    <div class="section-heading text-center mb-30 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="line mx-auto"></div>
+                        <h2>My Portfolio Showcase</h2>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="vcard-projects-menu wow fadeInUp" data-wow-delay="500ms">
+                        <div class="text-center portfolio-menu">
+                            <button class="btn active" data-filter="*">Digital Design</button>
+                            <button class="btn" data-filter=".web">Web Design</button>
+                            <button class="btn" data-filter=".brand">Brand Identity</button>
+                            <button class="btn" data-filter=".illustrations">Illustrations</button>
+                            <button class="btn" data-filter=".motion">Motion Graphics</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row vcard-portfolio">
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area web brand wow fadeInUp" data-wow-delay="100ms">
+                    <img src="img/bg-img/p1.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Brand identity - Company</h5>
+                        <a href="#" class="catagory">Branding</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p1.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area brand illustrations wow fadeInUp" data-wow-delay="200ms">
+                    <img src="img/bg-img/p2.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Device Mockup</h5>
+                        <a href="#" class="catagory">Digital Design</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p2.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area web illustrations wow fadeInUp" data-wow-delay="300ms">
+                    <img src="img/bg-img/p3.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Brand identity - Company</h5>
+                        <a href="#" class="catagory">Digital Design</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p3.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area brand motion wow fadeInUp" data-wow-delay="400ms">
+                    <img src="img/bg-img/p4.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Device Mockup</h5>
+                        <a href="#" class="catagory">Digital Design</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p4.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area brand motion wow fadeInUp" data-wow-delay="500ms">
+                    <img src="img/bg-img/p6.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Brand identity - Company</h5>
+                        <a href="#" class="catagory">Digital Design</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p6.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area web motion wow fadeInUp" data-wow-delay="600ms">
+                    <img src="img/bg-img/p8.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Device Mockup</h5>
+                        <a href="#" class="catagory">Digital Design</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p8.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area illustrations motion wow fadeInUp" data-wow-delay="700ms">
+                    <img src="img/bg-img/p5.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Brand identity - Company</h5>
+                        <a href="#" class="catagory">Digital Design</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p5.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area illustrations motion wow fadeInUp" data-wow-delay="800ms">
+                    <img src="img/bg-img/p7.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Device Mockup</h5>
+                        <a href="#" class="catagory">Digital Design</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p7.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single-portfolio-area web motion wow fadeInUp" data-wow-delay="900ms">
+                    <img src="img/bg-img/p9.jpg.webp" alt="">
+                    <!-- Content -->
+                    <div class="portfolio-content">
+                        <h5>Device Mockup</h5>
+                        <a href="#" class="catagory">Digital Design</a>
+                        <!-- Zoom View -->
+                        <div class="vcard-img-zoom">
+                            <a href="img/bg-img/p9.jpg.webp" class="img-url"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- See More Button -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="see-more mt-70 text-center wow fadeInUp" data-wow-delay="1000ms">
+                        <a href="#" class="btn vcard-btn">See Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- ##### Contact Area Start ##### -->
+    <div class="contact-area" id="contact" >
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Contact Form Area -->
+                <div class="col-12 col-md-6" >
+                    <div class="contact-area">
+
+                        <div class="section-heading wow fadeInUp" data-wow-delay="300ms">
+                            <div class="line"></div>
+                            <h2>Get in touch</h2>
+                        </div>
+
+                        <div class="contact-form-area wow fadeInUp" data-wow-delay="500ms">
+                            <form action="#" method="post" >
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn vcard-btn mt-15" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="col-12 col-md-6">
+                    <div class="testimonial-author-info mt-50">
+                        <img src="img/bg-img/panda-black.webp" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Contact Area End ##### -->
+
+    <!-- ##### Contact Information Area Start ##### -->
+    <div class="contact-information wow fadeInUp" data-wow-delay="500ms">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap align-items-center justify-content-between">
+                    <!-- Single Contact Information -->
+                    <div class="single-contact-info d-flex align-items-center">
+                        <div class="contact-icon">
+                            <img src="img/core-img/placeholder.png.webp" alt="">
+                        </div>
+                        <div class="contact-text">
+                            <h6>Address:</h6>
+                            <p>Princeton, NJ</p>
+                        </div>
+                    </div>
+
+                    <!-- Single Contact Information -->
+                    <div class="single-contact-info d-flex align-items-center">
+                        <div class="contact-icon">
+                            <img src="img/core-img/phone-call.png.webp" alt="">
+                        </div>
+                        <div class="contact-text">
+                            <h6>Phone:</h6>
+                            <p>609-613-7893 or 609-592-8799</p>
+                        </div>
+                    </div>
+
+                    <!-- Single Contact Information -->
+                    <div class="single-contact-info d-flex align-items-center">
+                        <div class="contact-icon">
+                            <img src="img/core-img/envelope.png.webp" alt="">
+                        </div>
+                        <div class="contact-text">
+                            <h6>Email:</h6>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="542d3b212639353d38143339353d387a373b39"> jainsumith88@gmail.com / apurvakothari04@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Contact Information Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <!-- Copywrite -->
+                <div class="col-12 text-center">
+                    <p><a href="#">
+Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="" target="_blank"></a>
+</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    
+
+
+
+<script>
+  function showInfo(person) {
+    const logoSelection = document.querySelector('.logo-selection ');
+    if (logoSelection) {
+        logoSelection.style.display = 'block';
+    }
+    // Hide the selector
+   
+   document.querySelector('.innfo-sectio').style.display = 'none';
+   
+   
+
+    
+    
+    // Show the correct info section
+    document.getElementById('info-raviteja').style.display = (person === 'raviteja') ? 'block' : 'none';
+    document.getElementById('info-chandu').style.display = (person === 'chandu') ? 'block' : 'none';
+
+    // Optional: Scroll to the content
+    document.getElementById(`info-${person}`).scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+
+
+</body>
+
+</html>
